@@ -32,6 +32,12 @@ jobs:
       
       - run: gulp build
       
+      - uses: actions/upload-articfact@v1
+        with:
+          name: MyPackage
+          path: dest
+      
+      
 
       
       
